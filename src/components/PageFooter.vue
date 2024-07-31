@@ -3,12 +3,12 @@
       <div class="footer-content">
         <div class="logo-container">
           <div class="logo">
-            <img class="logo-photo" src="../assets/images/Logo.png" alt="" />
+            <img class="logo-photo" src="/images/Logo.png" alt="" />
             <p class="logo-text">Interno</p>
           </div>
           <div class="twit-in-container">
-            <img src="../assets/images/twit.png" alt="" class="twitter" />
-            <img src="../assets/images/in.png" alt="" class="in" />
+            <img src="public/images/twit.png" alt="" class="twitter" />
+            <img src="public/images/in.png" alt="" class="in" />
           </div>
         </div>
       </div>

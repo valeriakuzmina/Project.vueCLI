@@ -2,20 +2,8 @@
   <div id="app">
     <MyHeader @navigate="currentPage = $event" />
     <component :is="currentPage" />
-    <section class="banner-wrapper">
-      <div class="banner">
-        <div class="banner-content">
-          <p class="banner-text">Пусть ваш дом будет уникальным</p>
-          <p class="banner-text-description">
-            Существует много вариаций Lorem Ipsum, которые можно использовать
-          </p>
-          <div class="button-content">
-            <a href="" class="begin">Начать</a>
-            <img src="../src/assets/images/Vector.png" alt="" class="button-img" />
-          </div>
-        </div>
-      </div>
-    </section>
+    <banner-main-page />
+    
     <section class="heading">
       <p class="heading-title">Следите за нашими проектами</p>
       <p class="heading-text">
@@ -24,64 +12,7 @@
       </p>
     </section>
 
-    <div class="wrapper">
-      <div class="content-card">
-        <img src="../src/assets/images/Image1.png" alt="photo" class="card-img" />
-        <div class="wrapper-content-card">
-          <div class="wrapper-content-card-text">
-            <p class="card-title">Современная кухня</p>
-            <p class="card-description">Декор / Планировка</p>
-          </div>
-          <div class="content-card-button">
-            <a href=""
-              ><img src="../src/assets/images/next.png" alt="" class="next-button"
-            /></a>
-          </div>
-        </div>
-      </div>
-      <div class="content-card">
-        <img src="../src/assets/images/Image2.png" alt="photo" class="card-img" />
-        <div class="wrapper-content-card">
-          <div class="wrapper-content-card-text">
-            <p class="card-title">Современная кухня</p>
-            <p class="card-description">Декор / Планировка</p>
-          </div>
-          <div class="content-card-button">
-            <a href=""
-              ><img src="../src/assets/images/next.png" alt="" class="next-button"
-            /></a>
-          </div>
-        </div>
-      </div>
-      <div class="content-card">
-        <img src="../src/assets/images/Image3.png" alt="photo" class="card-img" />
-        <div class="wrapper-content-card">
-          <div class="wrapper-content-card-text">
-            <p class="card-title">Современная кухня</p>
-            <p class="card-description">Декор / Планировка</p>
-          </div>
-          <div class="content-card-button">
-            <a href=""
-              ><img src="../src/assets/images/next.png" alt="" class="next-button"
-            /></a>
-          </div>
-        </div>
-      </div>
-      <div class="content-card">
-        <img src="../src/assets/images/Image4.png" alt="photo" class="card-img" />
-        <div class="wrapper-content-card">
-          <div class="wrapper-content-card-text">
-            <p class="card-title">Современная кухня</p>
-            <p class="card-description">Декор / Планировка</p>
-          </div>
-          <div class="content-card-button">
-            <a href=""
-              ><img src="../src/assets/images/next.png" alt="" class="next-button"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </div>
+   <card-main-page />
 
     <div class="counter-wrapper">
       <div class="counter-card">
@@ -119,7 +50,7 @@
         <p class="blog-title">Создадим лучший макет перепланировки</p>
         <div class="blog-description">
           <p class="blog-description-text">26 Декабрь,2022</p>
-          <img src="../src/assets/images/next.png" alt="" class="next-button-2" />
+          <img src="/images/next.png" alt="" class="next-button-2" />
         </div>
       </div>
       <div class="blog-card">
@@ -129,7 +60,7 @@
         <p class="blog-title">Лучшие интерьерные идеи по низкой цене</p>
         <div class="blog-description">
           <p class="blog-description-text">26 Декабрь,2022</p>
-          <img src="../src/assets/images/next.png" alt="" class="next-button-2" />
+          <img src="/images/next.png" alt="" class="next-button-2" />
         </div>
       </div>
       <div class="blog-card">
@@ -142,12 +73,15 @@
         <p class="blog-title">Лучшие интерьерные идеи по низкой цене</p>
         <div class="blog-description">
           <p class="blog-description-text">26 Декабрь,2022</p>
-          <img src="../src/assets/images/next.png" alt="" class="next-button-2" />
+          <img src="/images/next.png" alt="" class="next-button-2" />
         </div>
       </div>
     </section>
    <PageFooter />
   
+
+
+  <project-page />
   </div>
 </template>
 
@@ -155,6 +89,10 @@
 import MyHeader from './components/MyHeader.vue'
 import PageFooter from './components/PageFooter.vue'
 import PageBlog from './components/PageBlog.vue';
+import BannerBlogPage from './components/BannerBlogPage.vue';
+import BannerMainPage from './components/BannerMainPage.vue';
+import CardMainPage from './components/CardMainPage.vue';
+import ProjectPage from './components/ProjectPage.vue';
 
 
 
@@ -164,6 +102,10 @@ export default {
     MyHeader,
     PageFooter,
     PageBlog,
+    BannerBlogPage,
+    BannerMainPage,
+    CardMainPage,
+    ProjectPage,
 
     
   },

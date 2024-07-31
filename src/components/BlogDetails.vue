@@ -2,9 +2,9 @@
   <div>
 <MyHeader/>
    <div class="blog-banner">
-          <img src="./images/banner-blogdetails.png" alt="" class="blog-banner-img" />
+          <img src="/images/banner-blogdetails.png" alt="" class="blog-banner-img" />
         <div class="blog-details-wrapper">  
-<CardComponent/>
+<CardComponent />
    <div class="blog-details-tegs">
             <p class="blog-details-teg-title">Тэги</p>
             <div class="blog-details-teg-name">

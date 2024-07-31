@@ -65,7 +65,7 @@
   .banner {
     width: 1201px;
     height: 758px;
-    background-image: url(./images/banner.png);
+    background-image: url('../../public/images/banner.png');
   }
   
   .banner-content {
@@ -273,7 +273,7 @@
     margin-left: 21px;
     width: 340px;
     height: 289px;
-    background-image: url(./images/Image5.png);
+    background-image: url('../../public/images/Image5.png');
   }
   
   .img-container-2 {
@@ -281,7 +281,7 @@
     margin-left: 21px;
     width: 340px;
     height: 289px;
-    background-image: url(./images/Image6.png);
+    background-image: url('../../public/images/Image6.png');
   }
   
   .img-container-3 {
@@ -289,7 +289,7 @@
     margin-left: 21px;
     width: 340px;
     height: 289px;
-    background-image: url(./images/Image7.png);
+    background-image: url('../../public/images/Image7.png');
   }
   
   .img-container-text {
