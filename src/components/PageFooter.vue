@@ -14,9 +14,9 @@
       </div>
       <div class="fotter-content">
         <p class="footer-content-title">Страницы</p>
-        <p class="footer-content-text">Домой</p>
-        <p class="footer-content-text">Проект</p>
-        <p class="footer-content-text">Блог</p>
+        <router-link to="/" class="footer-content-text">Домой</router-link>
+        <router-link to="/project" class="footer-content-text">Проект</router-link>
+        <router-link to="/blog" class="footer-content-text">Блог</router-link>
       </div>
       <div class="footer-content">
         <p class="footer-content-title">Контакты</p>

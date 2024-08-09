@@ -9,9 +9,9 @@
             <p class="card-description">Декор / Планировка</p>
           </div>
           <div class="content-card-button">
-            <a href=""
+            <router-link to="/blogdetails"
               ><img src="/images/next.png" alt="" class="next-button"
-            /></a>
+            ></router-link>
           </div>
         </div>
       </div>
@@ -23,9 +23,9 @@
             <p class="card-description">Декор / Планировка</p>
           </div>
           <div class="content-card-button">
-            <a href=""
+            <router-link to="/blogdetails"
               ><img src="/images/next.png" alt="" class="next-button"
-            /></a>
+            /></router-link>
           </div>
         </div>
       </div>
@@ -37,9 +37,9 @@
             <p class="card-description">Декор / Планировка</p>
           </div>
           <div class="content-card-button">
-            <a href=""
+            <router-link to="/blogdetails"
               ><img src="/images/next.png" alt="" class="next-button"
-            /></a>
+            /></router-link>
           </div>
         </div>
       </div>
@@ -51,9 +51,9 @@
             <p class="card-description">Декор / Планировка</p>
           </div>
           <div class="content-card-button">
-            <a href=""
+            <router-link to="/blogdetails"
               ><img src="/images/next.png" alt="" class="next-button"
-            /></a>
+            /></router-link>
           </div>
         </div>
       </div>

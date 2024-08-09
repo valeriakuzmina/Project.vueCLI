@@ -71,7 +71,7 @@ export default {
   background-color: aliceblue;
   width: 130px;
   height: 130px;
-  top: 11000px;
+  top: 1500px;
   right: 950px;
   padding: 5px;
   cursor: pointer;

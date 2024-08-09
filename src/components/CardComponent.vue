@@ -1,5 +1,7 @@
 <template>
   <div>
+  <div class="blog-filter-card">
+    <div>
     <div class="blog-details-cards" v-for="card in filteredCards" :key="card.id">
     <p class="blog-details-card-title">{{card.title}}</p>
     <img :src="card.imgsrc" alt="" class="blog-details-card-img">
@@ -10,6 +12,20 @@
     <p class="blog-details-card-article">{{card.article}}</p>
     <img :src="card.qouter" alt="" class="blog-details-card-quote">
 </div>
+</div>
+    <div>
+     <div class="blog-details-tegs">
+            <p class="blog-details-teg-title">Тэги</p>
+            <div class="blog-details-teg-name">
+                <button @click="filterCards('kitchen')" class="teg kitchen">Кухня</button>
+                <button  @click="filterCards('bedroom')" class="teg bedroom">Спальня</button>
+                <button  @click="filterCards('building')" class="teg building">Здания</button>
+                <button  @click="filterCards('architecture')" class="teg architecture">Архитектура</button>
+                <button  @click="filterCards('layout')" class="teg layout">Планировка</button>
+            </div>
+   </div>
+   </div>
+  </div>
   </div>
 </template>
 
@@ -182,4 +198,10 @@ export default {
 
 <style scoped>
 @import '../assets/style.css';
+
+.blog-filter-card{
+  display: flex;
+  justify-content: center;
+  gap:50px;
+}
 </style>

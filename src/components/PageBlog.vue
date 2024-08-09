@@ -1,10 +1,8 @@
 <template>
 <div class = "blog-page">
-    <MyHeader />
       <banner-blog-page />
       <post-blog-page />
       <card-blog-page />
-   <PageFooter />
 </div>
 
    
@@ -17,7 +15,11 @@ import PostBlogPage from './PostBlogPage.vue';
 export default {
   components: { BannerBlogPage, CardBlogPage, PostBlogPage },
  name: 'PageBlog.vue',
+  mounted() {
+    window.scrollTo(0, 0); 
+  },
 }
+
 </script>
 
 

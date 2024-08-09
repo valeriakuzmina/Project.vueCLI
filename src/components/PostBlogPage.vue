@@ -24,7 +24,7 @@
             </p>
             <div class="post-data-text">
               <p class="post-data-text-time">26 December,2022</p>
-              <img src="/images/next.png" alt="" class="next-button-2" />
+              <router-link to="/blogdetails"><img src="/images/next.png" alt="" class="next-button-2" /></router-link>
             </div>
           </div>
         </div>

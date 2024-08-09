@@ -20,9 +20,9 @@
               <p class="card-description">{{ card.description }}</p>
             </div>
             <div class="content-card-button">
-              <a href=""
+              <router-link to="/projectdetails"
                 ><img src="/images/next.png" alt="" class="next-button"
-              /></a>
+              /></router-link>
             </div>
           </div>
         </div>

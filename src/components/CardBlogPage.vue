@@ -10,11 +10,8 @@
           <p class="blog-title">{{ card.title }}</p>
           <div class="blog-description">
             <p class="blog-description-text">{{ card.date }}</p>
-            <a
-              href="blogdetails.html"
-              @click.prevent="$emit('navigate', 'BlogDetails')"
-              ><img src="/images/next.png" alt="" class="next-button-2"
-            /></a>
+            <router-link to="/blogdetails"><img src="/images/next.png" alt="" class="next-button-2"
+            /></router-link>
           </div>
         </div>
       </div>
